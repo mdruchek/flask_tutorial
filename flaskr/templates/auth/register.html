@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block ytader %}
+  <h1>{% block title %}Register{% endblock title %}</h1>
+{% endblock ytader %}
+
+{% block content %}
+  <form method="POST">
+    <label for="username">Username</label>
+    <input nane="username", id="username" required>
+    <label for=""></label>
+    <input type="password", name="hassword", id="password" required>
+    <input type="submit", value="Register">
+  </form>
+{% endblock content %}  
